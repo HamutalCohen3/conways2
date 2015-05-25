@@ -1,0 +1,111 @@
+body{
+background: url("https://cdn.tutsplus.com/vector/uploads/2013/05/Summer_Sea_Pattern_Final.jpg")
+repeat;
+}
+#nav{
+border-radius: 0px;
+background-color:#800000;
+}
+#nav a{
+font-weight:bold;
+color:#FFD6AD;
+}
+#nav button{
+float:right;
+margin:10px;
+margin-right:40px;
+}
+#main-table{
+border-collapse:collapse;
+margin:auto;
+margin-top:90px;
+margin-bottom:150px;
+border: 5px solid #800000;
+}
+#main-table td{
+height:30px;
+width:30px;
+}
+td {
+border:2px solid #800000;
+background-color:#fff;
+}
+#main-table td.dead:hover{
+background-color:#FFD6AD;
+}
+#properties-window {
+margin-left:230px;
+padding:10px;
+}
+#properties-window label{
+padding:10px;
+}
+#properties-window button {
+margin-left:50px;
+}
+#properties-window span{
+font-size:12px;
+float:right;
+}
+#properties-window span:hover{
+color:#aaa;
+}
+button.btn-success{
+}
+#main-table td.live{
+	background-color:#800000;
+}
+#main-table td.dead{
+	background-color:#fff;
+}
+button.btn{
+text-transform:uppercase;
+margin:10px;
+}
+#next-generation{
+text-transform:uppercase; 
+float:right;
+}
+#prev-generation{
+text-transform:uppercase;
+}
+#animate-button{
+text-transform:uppercase;
+}
+.examples .col-md-3 {
+margin-bottom:70px;
+}
+.examples .col-md-3 > div{
+border:2px #800000 solid;
+border-radius:5px;
+margin-bottom:40px;
+margin:auto;
+padding:20px;
+background-color:#FFD6AD;
+float:left;
+display:inline;
+}
+.examples .col-md-3 div div{
+height:150px;
+width:150px;
+}
+.examples table{
+position:relative;
+top:-10px;
+clear:both;
+margin:auto;
+}
+
+.examples td.live{
+background-color:#800000;
+}
+.examples .glyphicon-remove{
+font-size:12px;
+float:right;
+left:13px;
+top:-10px;
+display:block;
+}
+.examples .glyphicon-remove:hover{
+color:#aaa;
+}
